@@ -1,0 +1,14 @@
+.site-nav .link {
+  text-transform: uppercase;
+}
+.site-nav {
+  text-align: center;
+}
+.post-text {
+  text-indent: 100px;
+  line-height: 2.5;
+}
+.text {
+  font-size: 46px;
+  line-height: 1;
+}
