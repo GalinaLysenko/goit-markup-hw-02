@@ -1,14 +1,138 @@
-.site-nav .link {
-  text-transform: uppercase;
+:root {
+  --main-colour: #212121;
+  --second-colour: #757575;
+  --accent-colour: #2196f3;
+  --main-font: Roboto, sans-serif;
+  --second-font: Raleway, sans-serif;
 }
-.site-nav {
+
+body {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  text-decoration-color: none;
+}
+
+.address {
+  font-style: normal;
+}
+
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+.logo-accent {
+  color: var(--accent-colour);
+}
+
+.navigation-link,
+.address-tell,
+.address-email {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+  color: var(--main-colour);
+}
+
+.navigation-link:hover,
+.address-tell:hover,
+.address-email:hover {
+  color: var(--accent-colour);
+}
+
+.title-hero {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.363;
   text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: ;
 }
-.post-text {
-  text-indent: 100px;
-  line-height: 2.5;
+
+.button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
-.text {
-  font-size: 46px;
-  line-height: 1;
+
+.achive-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1426px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-colour);
+}
+
+.achive-description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: var(--second-colour);
+}
+
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.166;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-colour);
+}
+
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.187;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-colour);
+}
+
+.team-position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.187;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--second-colour);
+}
+
+.footer-place {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+}
+
+.footer-address {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
 }
