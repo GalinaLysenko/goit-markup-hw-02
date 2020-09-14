@@ -24,6 +24,8 @@ body {
   font-style: normal;
 }
 
+/* ======== HEADER =========*/
+
 .logo {
   font-family: Raleway;
   font-style: normal;
@@ -55,6 +57,15 @@ body {
   color: var(--accent-colour);
 }
 
+.navigation-link:focus,
+.address-tell:focus,
+.address-email:focus {
+  color: var(--accent-colour);
+}
+
+/* ======== END HEADER =========*/
+
+/* ======== HERO =========*/
 .title-hero {
   font-weight: 900;
   font-size: 44px;
@@ -74,7 +85,9 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
 }
+/* ======== END HERO =========*/
 
+/* ======== ACHIVE =========*/
 .achive-title {
   font-weight: 700;
   font-size: 14px;
@@ -91,6 +104,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--second-colour);
 }
+/* ======== END ACHIVE =========*/
 
 .title {
   font-weight: 700;
@@ -101,6 +115,9 @@ body {
   color: var(--main-colour);
 }
 
+/* ======== END ACHIVE =========*/
+
+/*======== FUNCTION ==========*/
 .team-name {
   font-weight: 500;
   font-size: 16px;
@@ -119,6 +136,9 @@ body {
   color: var(--second-colour);
 }
 
+/*======== END FUNCTION ==========*/
+
+/*======== FOOTER ==========*/
 .footer-place {
   font-family: Roboto;
   font-style: normal;
@@ -136,3 +156,4 @@ body {
   line-height: 1.714;
   letter-spacing: 0.03em;
 }
+/*======== END FOOTER ==========*/
