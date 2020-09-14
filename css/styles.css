@@ -91,7 +91,7 @@ body {
 .achive-title {
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.1426px;
+  line-height: 1.142;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--main-colour);
@@ -157,3 +157,34 @@ body {
   letter-spacing: 0.03em;
 }
 /*======== END FOOTER ==========*/
+
+/*======== PORTFOLIO =========*/
+
+/*======== FILTER =========*/
+.filter {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-colour);
+}
+/*======== END FILTER =========*/
+
+/*======== PROJECT =========*/
+.project-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-colour);
+}
+
+.project-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+  color: var(--second-colour);
+}
+/*======== END PROJECT =========*/
