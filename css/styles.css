@@ -40,7 +40,15 @@ body {
   color: var(--accent-colour);
 }
 
-.navigation-link,
+.navigation-link {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+  color: var(--main-colour);
+}
+
 .address-tell,
 .address-email {
   font-family: var(--main-font);
@@ -48,7 +56,7 @@ body {
   font-size: 14px;
   line-height: 1.142;
   letter-spacing: 0.02em;
-  color: var(--main-colour);
+  color: var(--second-colour);
 }
 
 .navigation-link:hover,
@@ -63,6 +71,9 @@ body {
   color: var(--accent-colour);
 }
 
+.current-page {
+  color: var(--accent-colour);
+}
 /* ======== END HEADER =========*/
 
 /* ======== HERO =========*/
@@ -84,6 +95,29 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  border-width: 0px;
+}
+
+.button:hover {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  background-color: var(--accent-colour);
+  border-width: 0px;
+}
+
+.button:focus {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  background-color: var(--accent-colour);
+  border-width: 0px;
 }
 /* ======== END HERO =========*/
 
@@ -146,6 +180,8 @@ body {
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
+  color: #ffffff;
+  background-color: #2f303a;
 }
 
 .footer-address {
@@ -155,6 +191,8 @@ body {
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  background-color: #2f303a;
 }
 /*======== END FOOTER ==========*/
 
@@ -162,12 +200,39 @@ body {
 
 /*======== FILTER =========*/
 .filter {
+  text-align: center;
+}
+
+.filter-item {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.625;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-colour);
+  border-width: 0px;
+}
+.filter-item:hover {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  background: var(--accent-colour);
+  border-width: 0px;
+}
+
+.filter-item:focus {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  background: var(--accent-colour);
+  border-width: 0px;
+}
 }
 /*======== END FILTER =========*/
 
