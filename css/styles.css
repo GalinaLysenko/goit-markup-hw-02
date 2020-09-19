@@ -237,7 +237,11 @@ body {
 /*======== END FILTER =========*/
 
 /*======== PROJECT =========*/
-.project-title {
+.link {
+  text-decoration-color: none;
+}
+
+.item .project-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -253,3 +257,6 @@ body {
   color: var(--second-colour);
 }
 /*======== END PROJECT =========*/
+
+
+
