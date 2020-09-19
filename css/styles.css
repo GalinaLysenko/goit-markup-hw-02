@@ -84,7 +84,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: ;
+  color: var(--main-colour);
 }
 
 .button {
@@ -233,7 +233,6 @@ body {
   background: var(--accent-colour);
   border-width: 0px;
 }
-}
 /*======== END FILTER =========*/
 
 /*======== PROJECT =========*/
@@ -257,6 +256,3 @@ body {
   color: var(--second-colour);
 }
 /*======== END PROJECT =========*/
-
-
-
